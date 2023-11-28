@@ -16,5 +16,9 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |**Sum**|    **xxx**    |    **xxxxx**    |   **xxxxx**  |   **xxxxx**  |
 
 ## Google Drive
-**Transfer and Fine-tune with Age (7-14 years)**
-[Drive: Model --> Unflipped_Regress_Age(7-14)](https://drive.google.com/drive/u/0/folders/1lThC7Ft1dU3_4gGOPXNezZJJOwTLpZV5)
+* **Transfer and Fine-tune with Age (7-14 years)**
+  * [Drive: Model --> Unflipped_Regress_Age(7-14)](https://drive.google.com/drive/u/0/folders/1lThC7Ft1dU3_4gGOPXNezZJJOwTLpZV5)
+
+* **Transfer and Fine-tune with Gender (7-14 years)**
+  * [Drive: Model --> Unflipped_Classification_Gender(7-14)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
+
