@@ -16,6 +16,9 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |**Sum**|    **xxx**    |    **xxxxx**    |   **xxxxx**  |   **xxxxx**  |
 
 ## Google Drive
+* **Transfer and Fine-tune with Duo (7-14 years)**
+  * [Drive: Model --> Unflipped_Multi_task(7-14))](https://drive.google.com/drive/u/0/folders/1VtMGbAGY-p9oDw0X5pwFXr79_T6_r7r1)
+
 * **Transfer and Fine-tune with Age (7-14 years)**
   * [Drive: Model --> Unflipped_Regress_Age(7-14)](https://drive.google.com/drive/u/0/folders/1lThC7Ft1dU3_4gGOPXNezZJJOwTLpZV5)
 * **Transfer with Age and Fine-tune with Duo (7-14 years)**
