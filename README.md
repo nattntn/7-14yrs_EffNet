@@ -27,5 +27,12 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 * **Transfer and Fine-tune with Gender (7-14 years)**
   * [Drive: Model --> Unflipped_Classification_Gender(7-14)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
 
+## Results (7-14 yrs)
+|  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) | Epochs |
+| :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|
+|         Duo         |      -       |     1.16    |      68.62%       |   74.00%   |  3,500 |
+|         Duo         |      Duo     |     xxxx    |      xxxxx%       |   xxxxx%   |  x,xxx |
+|         Age         |       -      |     1.18    |        -          |   73.41%   |  3,500 |
+|         Age         |      Duo     |     0.94    |      75.51%       |   82.89%   |  3,500 |
 
 
