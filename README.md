@@ -31,8 +31,10 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) | Epochs |
 | :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|
 |         Duo         |      -       |     1.16    |      68.62%       |   74.00%   |  3,500 |
-|         Duo         |      Duo     |     xxxx    |      xxxxx%       |   xxxxx%   |  x,xxx |
+|         Duo         |    Duo(22)   |     0.93    |      81.63%       |   83.38%   |  2,000 |
+|         Duo         |    Duo(32)   |     0.94    |      77.30%       |   82.94%   |  4,500 |
 |         Age         |       -      |     1.18    |        -          |   73.41%   |  3,500 |
 |         Age         |      Duo     |     0.94    |      75.51%       |   82.89%   |  3,500 |
 |       Gender        |       -      |      -      |      65.05%       |     -      |  2,500 |
+|       Gender        |      Duo     |     0.96    |      77.30%       |   82.26%   |  4,500 |
 
