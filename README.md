@@ -21,6 +21,7 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 
 * **Transfer with Age and Fine-tune with Duo (7-14 years)**
   * [Drive: Model --> Unflipped_Regress_Age(7-14)](https://drive.google.com/drive/u/0/folders/1lThC7Ft1dU3_4gGOPXNezZJJOwTLpZV5)
+  * [Predict](https://colab.research.google.com/drive/1NgLHqNlUcADdpqaqs_lD0YlYNBnb-4Ti#scrollTo=RncttvaPKd3r)
 
 * **Transfer with Gender and Fine-tune with Duo (7-14 years)**
   * [Drive: Model --> Unflipped_Classification_Gender(7-14)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
