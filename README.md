@@ -15,9 +15,11 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |  14   |      62       |       57        |      119     |      223     |
 |**Sum**|    **xxx**    |    **xxxxx**    |   **xxxxx**  |   **xxxxx**  |
 
-## Google Drive
+## Google Drive ⚓
 * **Transfer and Fine-tune with Duo (7-14 years)**
   * [Drive: Model --> Unflipped_Multi_task(7-14))](https://drive.google.com/drive/u/0/folders/1VtMGbAGY-p9oDw0X5pwFXr79_T6_r7r1)
+  * [Predict R22:colab](https://colab.research.google.com/drive/1CC185wjhqY2s9hWtenLgRc2JxbPF97S-?usp=sharing)
+  * [Predict R32:colab](https://colab.research.google.com/drive/1iqXKPUtGcq4-26rt2vHpnX5i4z2mW2YK?usp=sharing)
 
 * **Transfer with Age and Fine-tune with Duo (7-14 years)**
   * [Drive: Model --> Unflipped_Regress_Age(7-14)](https://drive.google.com/drive/u/0/folders/1lThC7Ft1dU3_4gGOPXNezZJJOwTLpZV5)
@@ -27,13 +29,13 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
   * [Drive: Model --> Unflipped_Classification_Gender(7-14)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
 
 ## Results (7-14 yrs)
-|  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) |  ROC | Epochs |
-| :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:----:|:------:|
-|         Duo         |      -       |     1.16    |      68.62%       |   74.00%   |  3,500 |
-|         Duo         |    Duo(22)   |     0.93    |      81.63%       |   83.38%   |  2,000 |
-|         Duo         |    Duo(32)   |   **0.94**  |    **77.30%**     | **82.94%** |  4,500 |
-|         Age         |       -      |     1.18    |        -          |   73.41%   |  3,500 |
-|         Age         |      Duo     |   **0.94**  |      75.51%       |   82.89%   |  0.86  |3,500 |
-|       Gender        |       -      |      -      |      65.05%       |     -      |  2,500 |
-|       Gender        |      Duo     |     0.96    |    **77.30%**     |   82.26%   |  4,500 |
+|  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) |  ROC  | Epochs |
+| :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:-----:|:------:|
+|         Duo         |      -       |     1.16    |      68.62%       |   74.00%   |   -   |  3,500 |
+|         Duo         |    Duo(22)   |     0.93    |      81.63%       |   83.38%   |  0.87 |  2,000 |
+|         Duo         |    Duo(32)   |   **0.94**  |    **77.30%**     | **82.94%** |  0.86 |  4,500 |
+|         Age         |       -      |     1.18    |        -          |   73.41%   |   -   |  3,500 |
+|         Age         |      Duo     |   **0.94**  |      75.51%       |   82.89%   |  0.86 |  3,500 |
+|       Gender        |       -      |      -      |      65.05%       |     -      |   -   |  2,500 |
+|       Gender        |      Duo     |     0.96    |    **77.30%**     |   82.26%   |  0.85 |  4,500 |
 
