@@ -20,6 +20,7 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
   * [Drive: Model --> Unflipped_Multi_task(7-14))](https://drive.google.com/drive/u/0/folders/1VtMGbAGY-p9oDw0X5pwFXr79_T6_r7r1)
   * [Predict R22:colab](https://colab.research.google.com/drive/1CC185wjhqY2s9hWtenLgRc2JxbPF97S-?usp=sharing)
   * [Predict R32:colab](https://colab.research.google.com/drive/1iqXKPUtGcq4-26rt2vHpnX5i4z2mW2YK?usp=sharing)
+  * [Predict R36:colab](https://colab.research.google.com/drive/1wpLRRrBU9Bcs_l3r-L-j8NXwSzSHBTNP?usp=sharing) : ใช้แยกอายุน้อย
 
 * **Transfer with Age and Fine-tune with Duo (7-14 years)**
   * [Drive: Model --> Unflipped_Regress_Age(7-14)](https://drive.google.com/drive/u/0/folders/1lThC7Ft1dU3_4gGOPXNezZJJOwTLpZV5)
